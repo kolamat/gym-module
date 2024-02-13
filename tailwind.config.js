@@ -24,9 +24,9 @@ export default {
         },
         content: {
             evolvetext: "url('./assets/EvolveText.png')",
-                        abstractwaves: "url('./assets/AbstractWaves.png')",
-                                    parkles: "url('./assets/Sparkles.png')",
-                                                circles: "url('./assets/Circles.png')",
+            abstractwaves: "url('./assets/AbstractWaves.png')",
+            parkles: "url('./assets/Sparkles.png')",
+            circles: "url('./assets/Circles.png')",
         }
     },
   },
