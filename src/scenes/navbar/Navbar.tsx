@@ -8,7 +8,9 @@ type Props = {}
 const Navbar = (props: Props) => {
     const flexBetween = "flex items-center justify-between";
   return (
-    <div>Navbar</div>
+    <nav>
+        <div></div>
+    </nav>
   )
 }
 
