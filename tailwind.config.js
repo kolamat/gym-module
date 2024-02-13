@@ -22,6 +22,12 @@ export default {
             dmsans: ["DM Sans", "sans-serif"],
             montserrat: ["Montserrat", "sans-seriff"]
         },
+        content: {
+            evolvetext: "url('./assets/EvolveText.png')"
+                        abstractwaves: "url('./assets/AbstractWaves.png')"
+                                    parkles: "url('./assets/Sparkles.png')"
+                                                circles: "url('./assets/Circles.png')"
+        }
     },
   },
   plugins: [],
