@@ -26,7 +26,6 @@ export default {
            
            
            
-           
             evolvetext: "url('./assets/EvolveText.png')",
             abstractwaves: "url('./assets/AbstractWaves.png')",
             parkles: "url('./assets/Sparkles.png')",
