@@ -22,8 +22,8 @@ const Navbar = (props: Props) => {
                     <div className={`${flexBetween} gap-8 text-sm`}>
                         <p>Home</p>
                         <p>Benefits</p>
-                        <p>Our</p>
-                        <p>Home</p>
+                        <p>Our_Classes</p>
+                        <p>Contact_Us</p>
 
                     </div>
                     {/* INNER-RIGHT-SIDE */}
