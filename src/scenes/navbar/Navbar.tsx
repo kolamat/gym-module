@@ -16,7 +16,11 @@ const Navbar = (props: Props) => {
                 <img src={Logo} alt="logo" />
 
                 {/* RIGHT-SIDE */}
-                <div></div>
+                <div className={`${flexBetween} w-full`}>
+                    
+                    {/* INNER-RIGHT-SIDE */}
+                    <div></div>
+                </div>
             </div>
         </div>
 
