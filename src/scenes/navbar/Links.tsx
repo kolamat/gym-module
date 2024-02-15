@@ -10,7 +10,7 @@ const Links = ({
     const lowerCasePage = page.toLowerCase().replace(/ /g, "")
   return (
  <AnchorLink
- className={ }
+ className={`$`}
  href={`#${lowerCasePage}`}
  onClick={}
  >
