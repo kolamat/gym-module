@@ -26,7 +26,9 @@ const Navbar = (props: Props) => {
                         <p>Contact_Us</p>
                     </div>
                     {/* INNER-RIGHT-SIDE */}
-                    <div className={`${flexBetween} gap-8`}></div>
+                    <div className={`${flexBetween} gap-8`}>
+                        <p>Sign_Up</p>
+                    </div>
                 </div>
             </div>
         </div>
