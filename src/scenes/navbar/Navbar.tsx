@@ -17,7 +17,9 @@ const Navbar = (props: Props) => {
 
                 {/* RIGHT-SIDE */}
                 <div className={`${flexBetween} w-full`}>
-                    
+
+                    {/* INNER-LEFT-SIDE */}
+                    <div></div>
                     {/* INNER-RIGHT-SIDE */}
                     <div></div>
                 </div>
