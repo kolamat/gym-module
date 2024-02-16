@@ -8,6 +8,8 @@ type Props = {
 
 const Links = ({
     page,
+    selectedPage,
+    setSelectedPage,
 }: Props) => {
     const lowerCasePage = page.toLowerCase().replace(/ /g, "")
   return (
