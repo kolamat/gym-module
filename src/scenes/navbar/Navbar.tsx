@@ -20,10 +20,14 @@ const Navbar = (props: Props) => {
 
                     {/* INNER-LEFT-SIDE */}
                     <div className={`${flexBetween} gap-8 text-sm`}>
-                        <p>Home</p>
-                        <p>Benefits</p>
-                        <p>Our_Classes</p>
-                        <p>Contact_Us</p>
+                        <link
+                         page="Home" 
+                         selectedPage={selectedPage}
+                         setSelectedPage={setSelectedPage} 
+                        />
+                        <link page="Benefits">
+                        <link page="Our_Classes">
+                        <link page="Contact_Us">
                     </div>
                     {/* INNER-RIGHT-SIDE */}
                     <div className={`${flexBetween} gap-8`}>
