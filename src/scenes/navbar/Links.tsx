@@ -6,7 +6,7 @@ type Props = {
     setSelectedPage: (value: string) => void;
 }
 
-const Link = ({ page, selectedPage, setSelectedPage, }: Props) => {
+const Links = ({ page, selectedPage, setSelectedPage, }: Props) => {
     const lowerCasePage = page.toLowerCase().replace(/ /g, "")
   return (
  <AnchorLink
@@ -20,3 +20,5 @@ const Link = ({ page, selectedPage, setSelectedPage, }: Props) => {
  </AnchorLink>
   )
 }
+
+export default Links;
