@@ -8,7 +8,7 @@ type Props = {
     setSelectedPage: (value: string) => void;
 }
 
-const Navbar = (props: Props) => {
+const Navbar = ({selectedPage, setSelectedPage}: Props) => {
     const flexBetween = "flex items-center justify-between";
   return (
     <nav>
