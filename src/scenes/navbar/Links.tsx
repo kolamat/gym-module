@@ -3,12 +3,12 @@ import { SelectedPage } from "../../shared/types";
 
 type Props = {
     page: string;
-    selectedPage: SelectedPage;
+    selectedPage: SelectedPage ;
     setSelectedPage: (value: string) => void;
 }
 
 const Links = ({ page, selectedPage, setSelectedPage, }: Props) => {
-    const lowerCasePage = page.toLowerCase().replace(/ /g, "")
+    const lowerCasePage = page.toLowerCase().replace(/ /g, "") as SelectedPage
   return (
  <AnchorLink
  className={`${selectedPage === lowerCasePage ? "text-primary-500" : ""}
