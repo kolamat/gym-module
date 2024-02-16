@@ -2,6 +2,8 @@ import AnchorLink from "react-anchor-link-smooth-scroll"
 
 type Props = {
     page: string;
+    selectedPage: string;
+    setSelectedPage: (value: string) => void;
 }
 
 const Links = ({
