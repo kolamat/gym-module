@@ -75,7 +75,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}: Props) => {
           </div>
           {/* MOBILE-MENU */}
           {!isAboveMediumScreens && isMenuToggled && (
-              <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl  transition duration-500">
+              <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
                   {/* CLOSE-ICON */}
                   <div className="flex justify-end p-12">
                       <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
@@ -85,7 +85,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                   {/* MENU-ITEMS */}
 
                     {/* MOBILE-MENU */}
-                    <div className="ml-[33%] flex flex-col gap-10 text-2xl">
+                    <div className="ml-[33%] flex flex-col gap-10 text-2xl  transition duration-500">
                         <Link
                          page="Home" 
                          selectedPage={selectedPage}
