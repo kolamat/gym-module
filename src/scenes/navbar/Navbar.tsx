@@ -56,7 +56,7 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                               </div>
                           </div>
                       ) : (
-                    <div></div>
+                    <button className=" rounded-full bg-secondary-500 p-2"></button className=" rounded-full bg-secondary-500 p-2">
                      ) }
             </div>
         </div>
