@@ -21,7 +21,12 @@ const home = ({ setSelectedPage }: Props) => {
           {/* IMAGE-AND-MAIN-HEADER */}
           <div>
               {/* MAIN-HEADER */}
-              <div></div>
+              <div>
+                  {/* HEADINGS */}
+                  <div>
+                      <div></div>
+                  </div>
+              </div>
 
               {/* IMAGE */}
               <div></div>
