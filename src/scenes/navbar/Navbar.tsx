@@ -53,7 +53,7 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                     {/* INNER-RIGHT-SIDE */}
                     <div className={`${flexBetween} gap-8`}>
                         <p>Sign_Up</p>
-                        <ActionButton>Become_a_Member</ActionButton>
+                        <ActionButton setSelectedPage={setSelectedPage}>Become_a_Member</ActionButton>
                               </div>
                           </div>
                       ) : (
