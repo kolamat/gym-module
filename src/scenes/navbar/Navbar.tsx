@@ -23,7 +23,7 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                 <img src={Logo} alt="logo" />
 
                       {/* RIGHT-SIDE */}
-                      
+                      { isAboveMediumScreens ? (
                 <div className={`${flexBetween} w-full`}>
 
                     {/* INNER-LEFT-SIDE */}
@@ -53,10 +53,11 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                     <div className={`${flexBetween} gap-8`}>
                         <p>Sign_Up</p>
                         <button>Become_a_Member</button>
-                          </div>
-                          ):(
+                          </div>)
+                          :(
                           <div></div>
-                          )}
+                              )
+                          }
                 </div>
             </div>
         </div>
