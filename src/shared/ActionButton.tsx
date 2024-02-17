@@ -9,7 +9,9 @@ type Props = {
 
 const ActionButton = ({children, setSelectedPage}: Props) => {
   return (
-      <AnchorLink>
+      <AnchorLink
+      className='rounded-md'
+      >
           {children}
     </AnchorLink>
   )
