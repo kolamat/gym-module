@@ -83,7 +83,7 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                   {/* MENU-ITEMS */}
 
                     {/* MOBILE-MENU */}
-                    <div className={`${flexBetween} gap-8 text-sm`}>
+                    <div className="ml-[33%] flex flex-col gap-10 text-2xl">
                         <Link
                          page="Home" 
                          selectedPage={selectedPage}
