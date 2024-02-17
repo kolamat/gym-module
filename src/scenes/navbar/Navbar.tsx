@@ -55,9 +55,9 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                         <button>Become_a_Member</button>
                               </div>
                           </div>
-                                                        ) : (
-                          <div></div>
-                              ) }
+                      ) : (
+                    <div></div>
+                     ) }
             </div>
         </div>
 
