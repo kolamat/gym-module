@@ -11,9 +11,10 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void
 }
 
-const home = ({setSelectedPage} : Props) => {
+const home = ({ setSelectedPage }: Props) => {
+    const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
   return (
-    <div>home</div>
+    <section>home</section>
   )
 }
 
