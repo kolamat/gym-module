@@ -24,7 +24,11 @@ const home = ({ setSelectedPage }: Props) => {
               <div>
                   {/* HEADINGS */}
                   <div>
-                      <div></div>
+                      <div>
+                          <div>
+                              <img src={HomePageText} alt="HomePageText" />
+                          </div>
+                      </div>
                   </div>
               </div>
 
