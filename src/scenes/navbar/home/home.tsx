@@ -49,7 +49,9 @@ const home = ({ setSelectedPage }: Props) => {
               </div>
 
               {/* IMAGE */}
-              <div></div>
+              <div>
+                  <img src={HomePageGraphic} alt="home-pageGraphic" />
+              </div>
           </div>
       </section>
   )
