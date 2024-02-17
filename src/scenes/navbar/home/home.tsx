@@ -18,7 +18,11 @@ const home = ({ setSelectedPage }: Props) => {
           id='home'
           className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'
       >
-          home
+          {/* IMAGE-AND-MAIN-HEADER */}
+          <div>
+              {/* MAIN-HEADER */}
+              <div></div>
+          </div>
       </section>
   )
 }
