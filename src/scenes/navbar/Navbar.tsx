@@ -61,9 +61,10 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
                           </div>
                       ) : (
                               <button
+                                  type="button"
                                   className="rounded-full bg-secondary-500 p-2"
                               onClick={() => setIsMenuToggled( ! isMenuToggled)}
-                              > 
+                              >
                                   <Bars3Icon className="h-6 w-6 text-white" />
                                   </button>
                      ) }
@@ -74,7 +75,7 @@ const Navbar = ({selectedPage, setSelectedPage}: Props) => {
           {!isAboveMediumScreens && isMenuToggled && (
               <div className="fixed right-0 bottom-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl">
                   {/* CLOSE-ICON */}
-                  <div className="flex justify-end">
+                  <div className="flex justify-end p-12">
                       
                   </div>
            </div>   
