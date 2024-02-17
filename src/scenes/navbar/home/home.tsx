@@ -1,6 +1,7 @@
 import { SelectedPage } from '../../../shared/types'
 import useMediaQuery from '../../../hooks/useMediaQuery'
 import ActionButton from '../../../shared/ActionButton'
+import AnchorLink from "react-anchor-link-smooth-scroll"
 import HomePageText from '@/assets/HomePageText.png'
 import HomePageGraphic from '@/assets/HomePageGraphic.png'
 import SponsorRedBull from '@/assets/SponsorRedBull.png'
@@ -30,6 +31,16 @@ const home = ({ setSelectedPage }: Props) => {
                           </div>
                       </div>
                       <p>Unrivaled Gym. Unparalled Training Fitness Classes. World Class Studios to get the body Shapes That you Dream of.. Get Your Dream Body Now</p>
+                  </div>
+                  {/* ACTIONS */}
+                  <div>
+                      <ActionButton setSelectedPage={setSelectedPage}>
+                          Join Now
+                      </ActionButton>
+                      <AnchorLink
+                          className='text-sm font-bold text-primary-500 underline hover:text-secondary-500'
+                          onClick={() => setSelectedPage(SelectedPage.ContactUs)}
+                      ></AnchorLink>
                   </div>
               </div>
 
