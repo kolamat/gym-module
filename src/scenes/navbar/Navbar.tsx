@@ -85,7 +85,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage}: Props) => {
                   {/* MENU-ITEMS */}
 
                     {/* MOBILE-MENU */}
-                    <div className="ml-[33%] flex flex-col gap-10 text-2xl  transition duration-500">
+                    <div className="ml-[33%] flex flex-col gap-10 text-2xl">
                         <Link
                          page="Home" 
                          selectedPage={selectedPage}
