@@ -10,3 +10,5 @@ const ActionButton = ({children}: Props) => {
     </AnchorLink>
   )
 }
+
+export default ActionButton
