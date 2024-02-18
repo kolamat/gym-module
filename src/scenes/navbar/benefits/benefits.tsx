@@ -18,6 +18,9 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     <Htext>
         MORE THAN JUST A GYM
     </Htext>
+    <p>
+        We provide world class fitness equipment, trainers and classes to get you to your ultimate fitness goals with ease, we provide true care into each and every member
+    </p>
 </div>
 </motion.div>
     </section>
