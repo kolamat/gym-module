@@ -20,7 +20,7 @@ const home = ({ setSelectedPage }: Props) => {
           className='gap-16 bg-gray-20 py-10 md:h-full md:pb-0'
       >
           {/* IMAGE-AND-MAIN-HEADER */}
-          <div>
+          <div className='md:flex mx-auto w-5/6 items-center justify-center'>
               {/* MAIN-HEADER */}
               <div>
                   {/* HEADINGS */}
