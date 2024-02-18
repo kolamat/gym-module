@@ -7,6 +7,7 @@ import HomePageGraphic from '@/assets/HomePageGraphic.png'
 import SponsorRedBull from '@/assets/SponsorRedBull.png'
 import SponsorForbes from '@/assets/SponsorForbes.png'
 import SponsorFortune from '@/assets/SponsorFortune.png'
+import { motion } from 'framer-motion'
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void
@@ -24,14 +25,18 @@ const home = ({ setSelectedPage }: Props) => {
               {/* MAIN-HEADER */}
               <div className='z-10 mt-32 md:basis-3/5'>
                   {/* HEADINGS */}
-                  <div className='md:-mt-20'>
+                  <motion.div 
+                  className='md:-mt-20'
+                  initial="hidden"
+                  whileInView={`visible`}
+                  >
                       <div className='relative'>
                           <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext'>
                               <img src={HomePageText} alt="HomePageText" />
                           </div>
                       </div>
                       <p className='mt-8 text-sm'>Unrivaled Gym. Unparalled Training Fitness Classes. World Class Studios to get the body Shapes That you Dream of.. Get Your Dream Body Now</p>
-                  </div>
+                  </motion.div>
                   {/* ACTIONS */}
                   <div className='mt-8 flex items-center gap-8'>
                       <ActionButton setSelectedPage={setSelectedPage}>
