@@ -53,6 +53,8 @@ const home = ({ setSelectedPage }: Props) => {
                   <img src={HomePageGraphic} alt="home-pageGraphic" />
               </div>
           </div>
+          {/* SPONSORS */}
+          
       </section>
   )
 }
