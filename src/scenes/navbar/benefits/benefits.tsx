@@ -7,3 +7,5 @@ const benefits = (props: Props) => {
     <div>benefits</div>
   )
 }
+
+export default benefits;
