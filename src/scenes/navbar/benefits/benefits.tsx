@@ -1,6 +1,7 @@
 import { HomeIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
 import { SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
+import Htext from "../../../shared/Htext";
 
 
 type Props = {
