@@ -54,7 +54,13 @@ const home = ({ setSelectedPage }: Props) => {
               </div>
           </div>
           {/* SPONSORS */}
-          
+          {isAboveMediumScreens && (
+              <div>
+                  <div>
+                      <div></div>
+                  </div>
+              </div>
+          )}
       </section>
   )
 }
