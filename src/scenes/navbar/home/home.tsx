@@ -24,7 +24,7 @@ const home = ({ setSelectedPage }: Props) => {
               {/* MAIN-HEADER */}
               <div className='z-10 mt-32 md:basis-3/5'>
                   {/* HEADINGS */}
-                  <div>
+                  <div className='md:-mt-20'>
                       <div>
                           <div>
                               <img src={HomePageText} alt="HomePageText" />
