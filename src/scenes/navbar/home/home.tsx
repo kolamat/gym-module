@@ -28,7 +28,7 @@ const home = ({ setSelectedPage }: Props) => {
                   <motion.div 
                   className='md:-mt-20'
                   initial="hidden"
-                  whileInView={`visible`}
+                  whileInView="visible"
                   >
                       <div className='relative'>
                           <div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext'>
