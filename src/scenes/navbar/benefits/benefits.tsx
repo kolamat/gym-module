@@ -1,8 +1,15 @@
-import { HomeIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";
+import { HomeIcon, UserGroupIcon, AcademicCapIcon, HomeModernIcon } from "@heroicons/react/24/solid";
 import { SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
+const Benefits: Array<Object> = [
+{
+    icon: <HomeModernIcon className="h-6 w-6" />,
+    title: "State of the Art Facilities",
+    description: "",
+}
+]
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -24,6 +31,7 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     </p>
 </div>
 {/* BENEFITS */}
+<div className="mt-5 items-center justify-between gap-8 md:flex"></div>
 </motion.div>
     </section>
   )
