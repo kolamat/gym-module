@@ -1,9 +1,9 @@
 import { HomeIcon, UserGroupIcon, AcademicCapIcon, HomeModernIcon } from "@heroicons/react/24/solid";
-import { SelectedPage } from "../../../shared/types";
+import { BenefitsType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
-const Benefits: Array<Object> = [
+const Benefits: Array<BenefitsType> = [
 {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
