@@ -30,7 +30,7 @@ const home = ({ setSelectedPage }: Props) => {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{once: true, amount: 0.5 }}
-                  transition={{ duration: 0.5 }}
+                  transition={{ duration: 0.5 }} 
                   variants={{
                     hidden: { opacity: 0, y: -100 },
                     visible: { opacity: 1, y: 0}
@@ -44,7 +44,16 @@ const home = ({ setSelectedPage }: Props) => {
                       <p className='mt-8 text-sm'>Unrivaled Gym. Unparalled Training Fitness Classes. World Class Studios to get the body Shapes That you Dream of.. Get Your Dream Body Now</p>
                   </motion.div>
                   {/* ACTIONS */}
-                  <div className='mt-8 flex items-center gap-8'>
+                  <motion.div 
+                  className='mt-8 flex items-center gap-8'
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{once: true, amount: 0.5 }}
+                  transition={{ delay: 0.2, duration: 0.5 }} 
+                  variants={{
+                    hidden: { opacity: 0, x: -100 },
+                    visible: { opacity: 1, x: 0}}}
+                  >
                       <ActionButton setSelectedPage={setSelectedPage}>
                           Join Now
                       </ActionButton>
@@ -56,7 +65,7 @@ const home = ({ setSelectedPage }: Props) => {
                           
                           <p>Learn More</p>
                       </AnchorLink>
-                  </div>
+                  </motion.div>
               </div>
 
               {/* IMAGE */}
