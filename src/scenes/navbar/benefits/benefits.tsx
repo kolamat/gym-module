@@ -23,6 +23,7 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
         We provide world class fitness equipment, trainers and classes to get you to your ultimate fitness goals with ease, we provide true care into each and every member
     </p>
 </div>
+{/* BENEFITS */}
 </motion.div>
     </section>
   )
