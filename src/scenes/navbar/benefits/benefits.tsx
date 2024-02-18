@@ -1,3 +1,4 @@
+import { HomeIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid";}
 
 type Props = {}
 
