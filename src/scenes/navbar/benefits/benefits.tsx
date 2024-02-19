@@ -76,6 +76,7 @@ variants={{
     />
     ))}  
 </motion.div>
+{/* GRAPHICS-AND-DESCRIPTION */}
 </motion.div>
     </section>
   )
