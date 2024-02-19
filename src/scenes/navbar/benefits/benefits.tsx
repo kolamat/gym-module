@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 import Benefit from "./Benefit";
 
-const benefit: Array.isArray<BenefitType> = [
+const benefit: Array<BenefitType> = [
 {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
