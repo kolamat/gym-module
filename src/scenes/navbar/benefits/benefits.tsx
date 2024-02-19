@@ -82,7 +82,13 @@ variants={{
     <img src="" alt="" />
 
     {/* DESCRIPTION */}
-    <div></div>
+    <div>
+        {/* TITLE */}
+
+        {/* DESCRIPT */}
+
+        {/* BUTTON */}
+    </div>
 </div>
 </motion.div>
     </section>
