@@ -116,7 +116,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
             </div>
 
             {/* DESCRIPT */}
-            <div>
+            <motion.div
+              className="md:my-5 md:w-3/5"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
+              variants={{
+                hidden: { opacity: 0, x: -100 },
+                visible: { opacity: 1, x: 0 },
+              }}
+            >
               <p className="my-5">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -131,7 +141,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
                 desktop publishing software like Aldus PageMaker including
                 versions of Lorem Ipsum.
               </p>
-            </div>
+            </motion.div>
 
             {/* BUTTON */}
             <div className="relative mt-16">
