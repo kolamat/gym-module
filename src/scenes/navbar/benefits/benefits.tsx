@@ -3,7 +3,7 @@ import { BenefitsType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
-const Benefits: Array<BenefitsType> = [
+const benefits: Array<BenefitsType> = [
 {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
@@ -25,7 +25,7 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const benefits = ({setSelectedPage}: Props) => {
+const Benefits = ({setSelectedPage}: Props) => {
   return (
     <section id="benefits" className="mx-auto min-h-full w-5/6 py-20">
 <motion.div
@@ -42,7 +42,7 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
 </div>
 {/* BENEFITS */}
 <div className="mt-5 items-center justify-between gap-8 md:flex">
-    {benefits.map((Benefits)) =>
+    {benefits.map((benefits: BenefitsType)) =>
     <Benefits />
     }
 </div>
@@ -51,4 +51,4 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
   )
 }
 
-export default benefits;
+export default Benefits;
