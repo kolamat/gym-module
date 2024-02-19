@@ -84,6 +84,9 @@ variants={{
     {/* DESCRIPTION */}
     <div>
         {/* TITLE */}
+        <div className="relative">
+            <div className="before:absolute before:-top-20"></div>
+        </div>
 
         {/* DESCRIPT */}
 
