@@ -2,8 +2,8 @@ import React from "react";
 
 type Props = {};
 
-const ourclasses = (props: Props) => {
-  return <div>ourclasses</div>;
+const OurClasses = (props: Props) => {
+  return <div>OurClasses</div>;
 };
 
-export default ourclasses;
+export default OurClasses;
