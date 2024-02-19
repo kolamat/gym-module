@@ -2,7 +2,7 @@ import React from "react";
 import { SelectedPage } from "../../shared/types";
 
 type Props = {
-    setSelectedPage: (value: SelectedPage)
+  setSelectedPage: (value: SelectedPage) => void;
 };
 
 const OurClasses = ({ setSelectedPage }: Props) => {
