@@ -2,6 +2,7 @@ import { HomeIcon, UserGroupIcon, AcademicCapIcon, HomeModernIcon } from "@heroi
 import { BenefitType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
+import Benefit from "./Benefit";
 
 const benefit: Array.isArray<BenefitType> = [
 {
