@@ -94,14 +94,16 @@ const Benefits = ({ setSelectedPage }: Props) => {
           {/* DESCRIPTION */}
           <div>
             {/* TITLE */}
-            <motion.div>
+            <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
-                <Htext>
-                  MILLIONS OF HAPPY MEMBERS GETTING{" "}
-                  <span className="text-primary-500">FIT</span>
-                </Htext>
+                <motion.div>
+                  <Htext>
+                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
+                    <span className="text-primary-500">FIT</span>
+                  </Htext>
+                </motion.div>
               </div>
-            </motion.div>
+            </div>
 
             {/* DESCRIPT */}
             <div>
