@@ -120,6 +120,9 @@ const Benefits = ({ setSelectedPage }: Props) => {
             </div>
 
             {/* BUTTON */}
+            <div className="relative mt-16">
+              <div className="before:absolute before:-bottom-20 before:right-40"></div>
+            </div>
           </div>
         </div>
       </motion.div>
