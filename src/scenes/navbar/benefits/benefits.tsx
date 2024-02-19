@@ -3,7 +3,7 @@ import { BenefitType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
-const benefit: Array<BenefitType> = [
+const benefit: Array.isArray<BenefitType> = [
 {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
@@ -41,8 +41,8 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     </p>
 </div>
 {/* BENEFITS */}
-<div className="mt-5 items-center justify-between gap-8 md:flex">
-    {Benefits.Map((benefits: BenefitType) => ( 
+{/* <div className="mt-5 items-center justify-between gap-8 md:flex">
+    {Benefits.map((benefits: BenefitType) => ( 
     <Benefit
     key={benefits.title}
     icon={benefits.icon}
@@ -50,8 +50,8 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     description={benefits.description}
     setSelectedPage={setSelectedPage}
     />
-    ))} 
-</div>
+    ))}  
+</div>*/}
 </motion.div>
     </section>
   )
