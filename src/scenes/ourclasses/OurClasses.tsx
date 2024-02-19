@@ -1,8 +1,11 @@
 import React from "react";
+import { SelectedPage } from "../../shared/types";
 
-type Props = {};
+type Props = {
+    setSelectedPage: (value: SelectedPage)
+};
 
-const OurClasses = (props: Props) => {
+const OurClasses = ({ setSelectedPage }: Props) => {
   return <div>OurClasses</div>;
 };
 
