@@ -1,9 +1,9 @@
 import { HomeIcon, UserGroupIcon, AcademicCapIcon, HomeModernIcon } from "@heroicons/react/24/solid";
-import { BenefitsType, SelectedPage } from "../../../shared/types";
+import { BenefitType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
-const benefits: Array<BenefitsType> = [
+const benefit: Array<BenefitType> = [
 {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
@@ -41,11 +41,17 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
     </p>
 </div>
 {/* BENEFITS */}
-{/* <div className="mt-5 items-center justify-between gap-8 md:flex">
-    {benefits.map((benefits: BenefitsType) => ( 
-    <Benefits />
+<div className="mt-5 items-center justify-between gap-8 md:flex">
+    {benefits.map((benefit: BenefitType) => ( 
+    <Benefit
+    key={benefit.title}
+    icon={benefit.icon}
+    title={benefit.title}
+    description={benefit.description}
+    setSelectedPage={setSelectedPage}
+    />
     ))} 
-</div>*/}
+</div>
 </motion.div>
     </section>
   )
