@@ -3,23 +3,23 @@ import { BenefitsType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 
-const Benefits: Array<BenefitsType> = [
-{
-    icon: <HomeModernIcon className="h-6 w-6" />,
-    title: "State of the Art Facilities",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-}, 
-{
-    icon: <UserGroupIcon className="h-6 w-6" />,
-    title: "100's of Diverse Classes",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-},
-{
-    icon: <AcademicCapIcon className="h-6 w-6" />,
-    title: "Expert and Pro Trainers",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-}
-]
+// const Benefits: Array<BenefitsType> = [
+// {
+//     icon: <HomeModernIcon className="h-6 w-6" />,
+//     title: "State of the Art Facilities",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// }, 
+// {
+//     icon: <UserGroupIcon className="h-6 w-6" />,
+//     title: "100's of Diverse Classes",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// },
+// {
+//     icon: <AcademicCapIcon className="h-6 w-6" />,
+//     title: "Expert and Pro Trainers",
+//     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+// }
+// ]
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
