@@ -94,6 +94,10 @@ variants={{
         </div>
 
         {/* DESCRIPT */}
+        <div>
+            <p></p>
+            <p></p>
+        </div>
 
         {/* BUTTON */}
     </div>
