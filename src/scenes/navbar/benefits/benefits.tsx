@@ -77,6 +77,13 @@ variants={{
     ))}  
 </motion.div>
 {/* GRAPHICS-AND-DESCRIPTION */}
+<div>
+    {/* GRAHIC*/}
+    <img src="" alt="" />
+
+    {/* DESCRIPTION */}
+    <div></div>
+</div>
 </motion.div>
     </section>
   )
