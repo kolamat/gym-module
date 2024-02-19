@@ -85,7 +85,12 @@ variants={{
     <div>
         {/* TITLE */}
         <div className="relative">
-            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves"></div>
+            <div className="before:absolute before:-top-20 before:-left-20 before:z-[1] before:content-abstractwaves">
+                <Htext>
+                    MILLIONS OF HAPPY MEMBERS GETTING{" "}
+                    <span className="text-primary-500">FIT</span>
+                </Htext>
+            </div>
         </div>
 
         {/* DESCRIPT */}
