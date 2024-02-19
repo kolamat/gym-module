@@ -42,14 +42,14 @@ onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
 </div>
 {/* BENEFITS */}
  <div className="mt-5 items-center justify-between gap-8 md:flex">
-    {Benefits.map((benefits: BenefitType) => ( 
-   {/* <Benefit
+    {benefit.map((benefits: BenefitType) => ( 
+    <Benefit
     key={benefits.title}
     icon={benefits.icon}
     title={benefits.title}
     description={benefits.description}
     setSelectedPage={setSelectedPage}
-    />*/}
+    />
     ))}  
 </div>
 </motion.div>
