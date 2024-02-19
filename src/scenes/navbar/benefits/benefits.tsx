@@ -8,6 +8,7 @@ import { BenefitType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 import Benefit from "./Benefit";
+import ActionButton from "../../../shared/ActionButton";
 
 const benefit: Array<BenefitType> = [
   {
@@ -122,7 +123,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             {/* BUTTON */}
             <div className="relative mt-16">
               <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-Sparkles">
-                <ActionButton></ActionButton>
+                <ActionButton setSelectedPage={setSelectedPage}></ActionButton>
               </div>
             </div>
           </div>
