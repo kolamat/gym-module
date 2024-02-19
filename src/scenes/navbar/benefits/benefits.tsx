@@ -8,6 +8,7 @@ import { BenefitType, SelectedPage } from "../../../shared/types";
 import { motion } from "framer-motion";
 import Htext from "../../../shared/Htext";
 import Benefit from "./Benefit";
+import BenefitsPageGraphic from "../../../assets/BenefitsPageGraphic.png";
 import ActionButton from "../../../shared/ActionButton";
 
 const benefit: Array<BenefitType> = [
@@ -88,7 +89,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
         {/* GRAPHICS-AND-DESCRIPTION */}
         <div>
           {/* GRAHIC*/}
-          <img src="" alt="" />
+          <img src={BenefitsPageGraphic} alt="benefit-page-graphic" />
 
           {/* DESCRIPTION */}
           <div>
