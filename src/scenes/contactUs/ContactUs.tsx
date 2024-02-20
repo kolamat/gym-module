@@ -28,6 +28,12 @@ const ContactUs = ({ setSelectedPage }: Props) => {
           <Htext>
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </Htext>
+          <p>
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </p>
         </motion.div>
       </motion.div>
     </section>
