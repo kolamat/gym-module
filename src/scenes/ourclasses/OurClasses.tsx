@@ -15,26 +15,36 @@ const classes = [
       "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
     image: image1,
   },
-  name: "Weight Training Classes",
-  description:
-    "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
-  image: image2,
-  name: "Weight Training Classes",
-  description:
-    "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
-  image: image3,
-  name: "Adventure Classes",
-  description:
-    "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
-  image: image4,
-  name: "Fitness Classes",
-  description:
-    "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
-  image: image5,
-  name: "Training Classes",
-  description:
-    "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
-  image: image6,
+  {
+    name: "Weight Training Classes",
+    description:
+      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
+    image: image2,
+  },
+  {
+    name: "Weight Training Classes",
+    description:
+      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
+    image: image3,
+  },
+  {
+    name: "Adventure Classes",
+    description:
+      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
+    image: image4,
+  },
+  {
+    name: "Fitness Classes",
+    description:
+      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
+    image: image5,
+  },
+  {
+    name: "Training Classes",
+    description:
+      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
+    image: image6,
+  },
 ];
 
 type Props = {
