@@ -2,7 +2,7 @@ import React from "react";
 
 type Props = {};
 
-const Class = (props: Props) => {
+const Class = ({ name, description, image }: Props) => {
   return <div>Class</div>;
 };
 
