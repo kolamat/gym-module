@@ -17,8 +17,6 @@ const classes = [
   },
   {
     name: "Yoga Classes",
-    description:
-      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
     image: image2,
   },
   {
@@ -29,8 +27,6 @@ const classes = [
   },
   {
     name: "Adventure Classes",
-    description:
-      "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
     image: image4,
   },
   {
