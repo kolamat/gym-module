@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Home from "@/scenes/navbar/home/home";
 import Benefits from "@/scenes/navbar/benefits/Benefits";
+import ContactUs from "@/scenes/contactus/ContactUs";
 import OurClasses from "@/scenes/ourclasses/OurClasses";
 import Navbar from "@/scenes/navbar/Navbar";
 import { SelectedPage } from "@/shared/types";
