@@ -1,4 +1,8 @@
-type Props = {};
+type Props = {
+  name: string;
+  description?: string;
+  image: string;
+};
 
 const Class = ({ name, description, image }: Props) => {
   const overlayStyles = `p-5 absolute z-30 flex h-[380px] w-[450px] flex-col i
