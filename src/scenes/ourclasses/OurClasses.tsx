@@ -7,8 +7,9 @@ import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import { motion } from "framer-motion";
 import HText from "../../shared/Htext";
+import { ClassType } from "react";
 
-const classes = [
+const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
