@@ -47,7 +47,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               hidden: { opacity: 0, x: -100 },
               visible: { opacity: 1, x: 0 },
             }}
-          ></motion.div>
+          >
+            <form target="_blank" onSubmit={onSubmit}></form>
+          </motion.div>
         </div>
       </motion.div>
     </section>
