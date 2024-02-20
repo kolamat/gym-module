@@ -1,5 +1,3 @@
-import React from "react";
-
 type Props = {};
 
 const Class = ({ name, description, image }: Props) => {
