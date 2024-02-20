@@ -30,7 +30,12 @@ const OurClasses = ({ setSelectedPage }: Props) => {
         >
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
-            <p className="py-5"></p>
+            <p className="py-5">
+              It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages, and more recently with
+              desktop publishing software like Aldus PageMaker including
+              versions of Lorem Ipsum.
+            </p>
           </div>
         </motion.div>
       </motion.div>
