@@ -1,6 +1,10 @@
-type Props = {};
+import { SelectedPage } from "../../shared/types";
 
-const ContactUs = (props: Props) => {
+type Props = {
+  setSelectedPage: (value: SelectedPage) => void;
+};
+
+const ContactUs = ({ setSelectedPage }: Props) => {
   return <div>ContactUs</div>;
 };
 
