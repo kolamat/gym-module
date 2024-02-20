@@ -79,7 +79,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               />
               {errors.name && (
                 <p className="mt-1 text-primary-500">
-                  {errors.name.type === "required" && "This field is required"}
+                  {errors.name.type === "required" && "This field is required."}
                 </p>
               )}
             </form>
