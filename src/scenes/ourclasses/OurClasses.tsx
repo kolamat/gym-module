@@ -38,6 +38,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
             </p>
           </div>
         </motion.div>
+        <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden"></div>
       </motion.div>
     </section>
   );
