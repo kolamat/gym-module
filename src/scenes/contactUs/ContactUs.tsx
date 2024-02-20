@@ -77,6 +77,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   maxLength: 100,
                 })}
               />
+              {errors.name && (
+                <p>
+                  {errors.name.type === "required" && "This field is required"}
+                </p>
+              )}
             </form>
           </motion.div>
         </div>
