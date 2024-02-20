@@ -68,7 +68,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               action="https://formsubmit.co/matanmidupe004@gmail.com"
               method="POST"
             >
-              <input type="text" />
+              <input />
             </form>
           </motion.div>
         </div>
