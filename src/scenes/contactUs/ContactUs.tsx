@@ -9,6 +9,19 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
+  const {
+    register,
+    trigger,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = async (e: any) => {
+    const isValid = await trigger();
+    if (!isValid) {
+      e.preventDefault();
+    }
+  };
+
   return (
     <section id="contactus" className="mx-auto w-5/6 pt-24 pb-32">
       <motion.div
@@ -48,7 +61,12 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <form target="_blank" onSubmit={onSubmit}></form>
+            <form
+              target="_blank"
+              onSubmit={onSubmit}
+              action="https://formsubmit.co/matanmidupe004@gmail.com"
+              method="POST"
+            ></form>
           </motion.div>
         </div>
       </motion.div>
