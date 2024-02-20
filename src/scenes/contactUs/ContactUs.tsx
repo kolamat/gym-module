@@ -25,7 +25,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <Htext></Htext>
+          <Htext>
+            <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
+          </Htext>
         </motion.div>
       </motion.div>
     </section>
