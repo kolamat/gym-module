@@ -55,7 +55,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
       >
         <motion.div
-          className="mx-[26px] items-center"
+          className="mx-[23px] items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
