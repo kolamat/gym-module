@@ -68,7 +68,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               action="https://formsubmit.co/matanmidupe004@gmail.com"
               method="POST"
             >
-              <input className={inputStyles} />
+              <input className={inputStyles} type="text" placeholder="NAME" />
             </form>
           </motion.div>
         </div>
