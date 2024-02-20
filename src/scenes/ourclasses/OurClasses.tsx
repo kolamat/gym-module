@@ -16,13 +16,13 @@ const classes = [
     image: image1,
   },
   {
-    name: "Weight Training Classes",
+    name: "Yoga Classes",
     description:
       "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
     image: image2,
   },
   {
-    name: "Weight Training Classes",
+    name: "Ab Core Classes",
     description:
       "    It was popularised in the 1960s with the release of Letraset versions of Lorem Ipsum.",
     image: image3,
