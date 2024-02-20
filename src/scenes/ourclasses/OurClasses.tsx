@@ -50,11 +50,12 @@ type Props = {
 
 const OurClasses = ({ setSelectedPage }: Props) => {
   return (
-    <section id="ourclasses" className="m-auto w-full bg-primary-100 py-40">
+    <section id="ourclasses" className="mx-auto w-full bg-primary-100 py-40">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.OurClasses)}
       >
         <motion.div
+          className="mx-[30px] items-center"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
