@@ -11,7 +11,7 @@ type Props = {
 };
 
 const OurClasses = ({ setSelectedPage }: Props) => {
-  return <div>OurClasses</div>;
+  return <section></section>;
 };
 
 export default OurClasses;
