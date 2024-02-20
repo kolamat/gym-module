@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { SelectedPage } from "@/shared/types";
+import Htext from "../../shared/Htext";
 import { useForm } from "react-hook-form";
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png";
 
@@ -23,7 +24,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             hidden: { opacity: 0, y: -100 },
             visible: { opacity: 1, y: 0 },
           }}
-        ></motion.div>
+        >
+          <Htext></Htext>
+        </motion.div>
       </motion.div>
     </section>
   );
