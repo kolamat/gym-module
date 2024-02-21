@@ -20,6 +20,7 @@ const Footer = () => {
               stroke-width="9"
             />
           </svg>
+          <p></p>
         </div>
         <div></div>
         <div></div>
