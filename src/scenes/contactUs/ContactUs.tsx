@@ -118,6 +118,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     "Max length is 2000 char."}
                 </p>
               )}
+
+              <button
+                type="submit"
+                className="mt-5 rounded-lg bg-secondary-500 px-20 py-3"
+              ></button>
             </form>
           </motion.div>
         </div>
