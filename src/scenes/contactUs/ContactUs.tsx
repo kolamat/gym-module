@@ -84,6 +84,23 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                     "Max length is 100 char."}
                 </p>
               )}
+
+              <input
+                className={inputStyles}
+                type="text"
+                placeholder="EMAIL"
+                {...register("name", {
+                  required: true,
+                  maxLength: 100,
+                })}
+              />
+              {errors.name && (
+                <p className="mt-1 text-primary-500">
+                  {errors.name.type === "required" && "This field is required."}
+                  {errors.name.type === "MaxLength" &&
+                    "Max length is 100 char."}
+                </p>
+              )}
             </form>
           </motion.div>
         </div>
