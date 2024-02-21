@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <h4 className="font-bold">Contact Us</h4>
-          <p className="my-5">Massa orci senectus</p>
+          <p className="my-5">Tempus metus mattis risus</p>
           <p className="my-5">Et gravida id et etiam</p>
         </div>
       </div>
