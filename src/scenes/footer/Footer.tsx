@@ -26,6 +26,7 @@ const Footer = () => {
             ever since the 1500s, when an unknown printer took a gallery of type
             and scrambled it to make a type specimen book.
           </p>
+          <p>&#169; Kol_Gym All Rights Reserved</p>
         </div>
         <div></div>
         <div></div>
