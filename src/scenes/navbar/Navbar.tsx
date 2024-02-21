@@ -9,7 +9,7 @@ import ActionButton from "../../shared/ActionButton";
 type Props = {
   isTopOfPage: boolean;
   selectedPage: SelectedPage;
-  setSelectedPage: (value: SelectedPage) => void;
+  setSelectedPage: (value: string) => void;
 };
 
 const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
@@ -80,7 +80,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   <Link
                     page="Contact_Us"
                     selectedPage={selectedPage}
-                    setSelectedPage={selectedPage}
+                    setSelectedPage={setSelectedPage}
                   />
                 </div>
                 {/* INNER-RIGHT-SIDE */}
