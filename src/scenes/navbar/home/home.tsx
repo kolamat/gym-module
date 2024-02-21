@@ -8,6 +8,7 @@ import SponsorRedBull from "@/assets/SponsorRedBull.png";
 import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import { motion } from "framer-motion";
+import Image from "./homeicon.svg";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -39,6 +40,7 @@ const home = ({ setSelectedPage }: Props) => {
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
                 {/* <img src={HomePageText} alt="HomePageText" /> */}
+                <Image width="50" height="50" />
               </div>
             </div>
             <p className="mt-8 text-sm">
