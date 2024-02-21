@@ -38,7 +38,7 @@ const home = ({ setSelectedPage }: Props) => {
           >
             <div className="relative">
               <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext">
-                <img src={HomePageText} alt="HomePageText" />
+                {/* <img src={HomePageText} alt="HomePageText" /> */}
               </div>
             </div>
             <p className="mt-8 text-sm">
