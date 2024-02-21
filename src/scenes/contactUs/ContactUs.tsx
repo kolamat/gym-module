@@ -89,15 +89,16 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 className={inputStyles}
                 type="text"
                 placeholder="EMAIL"
-                {...register("name", {
+                {...register("email", {
                   required: true,
-                  maxLength: 100,
+                  pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                 })}
               />
-              {errors.name && (
+              {errors.email && (
                 <p className="mt-1 text-primary-500">
-                  {errors.name.type === "required" && "This field is required."}
-                  {errors.name.type === "MaxLength" &&
+                  {errors.email.type === "required" &&
+                    "This field is required."}
+                  {errors.email.type === "MaxLength" &&
                     "Max length is 100 char."}
                 </p>
               )}
