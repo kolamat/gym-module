@@ -1,4 +1,4 @@
-import { SelectedPage, ClassType } from "@/shared/types";
+import { SelectedPage, ClassType } from "../../../shared/types";
 import image1 from "@/assets/S-assets/S-img1.jpg";
 import image2 from "@/assets/S-assets/S-img2.jpg";
 import image3 from "@/assets/S-assets/S-img3.jpg";
