@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
             {/* <img src={Logo} alt="logo" /> */}
 
             <svg
-              className="md:w-[185px] h-[27px] whitespace-nowrap"
+              className="sm:w-[185px] h-[27px] whitespace-nowrap"
               width="99"
               height="17"
               viewBox="0 0 185 27"
