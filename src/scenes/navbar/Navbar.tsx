@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Logo from "@/assets/Logo.png";
+// import Logo from "@/assets/Logo.png";
 import Link from "./Links";
 import { SelectedPage } from "../../shared/types";
 import useMediaQuery from "../../hooks/useMediaQuery";
@@ -80,7 +80,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   <Link
                     page="Contact_Us"
                     selectedPage={selectedPage}
-                    setSelectedPage={setSelectedPage}
+                    setSelectedPage={selectedPage}
                   />
                 </div>
                 {/* INNER-RIGHT-SIDE */}
