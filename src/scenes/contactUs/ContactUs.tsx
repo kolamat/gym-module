@@ -115,7 +115,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                   {errors.message.type === "required" &&
                     "This field is required."}
                   {errors.message.type === "MaxLength" &&
-                    "Max length is 100 char."}
+                    "Max length is 2000 char."}
                 </p>
               )}
             </form>
