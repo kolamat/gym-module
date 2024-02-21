@@ -4,12 +4,12 @@ import {
   AcademicCapIcon,
   HomeModernIcon,
 } from "@heroicons/react/24/solid";
-import { BenefitType, SelectedPage } from "../../../shared/types";
+import { BenefitType, SelectedPage } from "../../shared/types";
 import { motion } from "framer-motion";
-import Htext from "../../../shared/Htext";
+import Htext from "../../shared/Htext";
 import Benefit from "./Benefit";
-import BenefitsPageGraphic from "../../../assets/BenefitsPageGraphic.png";
-import ActionButton from "../../../shared/ActionButton";
+import BenefitsPageGraphic from "../../assets/BenefitsPageGraphic.png";
+import ActionButton from "../../shared/ActionButton";
 
 const benefit: Array<BenefitType> = [
   {

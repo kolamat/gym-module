@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Home from "./scenes/navbar/home/home";
-import Benefits from "./scenes/navbar/benefits/Benefits";
+import Home from "./scenes/home/home";
+import Benefits from "./scenes/benefits/Benefits";
 import ContactUs from "./scenes/contactUs/ContactUs";
 import Footer from "./scenes/footer/Footer";
 import OurClasses from "./scenes/ourclasses/OurClasses";
