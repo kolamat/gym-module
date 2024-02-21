@@ -133,12 +133,16 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.5 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
             variants={{
               hidden: { opacity: 0, x: 100 },
               visible: { opacity: 1, x: 0 },
             }}
-          ></motion.div>
+          >
+            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+              <img src={ContactUsPageGraphic} alt="contact-us-page-graphic" />
+            </div>
+          </motion.div>
         </div>
       </motion.div>
     </section>
