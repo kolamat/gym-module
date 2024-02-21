@@ -20,7 +20,7 @@ const Footer = () => {
               stroke-width="9"
             />
           </svg>
-          <p>
+          <p className="my-5">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a gallery of type
