@@ -9,9 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300
-    px-5 py-3 placeholder-white`;
-
+  const inputStyles = `mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-white`;
   const {
     register,
     trigger,
@@ -32,27 +30,26 @@ const ContactUs = ({ setSelectedPage }: Props) => {
       >
         {/* HEADER */}
         <motion.div
-          className="md:w-3/5"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 0.5 }}
           variants={{
-            hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x: 0 },
+            hidden: { opacity: 0, y: -100 },
+            visible: { opacity: 1, y: 0 },
           }}
         >
           <Htext>
             <span className="text-primary-500">JOIN NOW</span> TO GET IN SHAPE
           </Htext>
           <p className="my-5">
-            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
-            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
-            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
           </p>
         </motion.div>
-
-        {/* FORM AND IMAGE */}
+        {/* FORM -AND-IMAGE  */}
         <div className="mt-10 justify-between gap-8 md:flex">
           <motion.div
             className="mt-10 basis-3/5 md:mt-0"
@@ -61,14 +58,14 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, y: 50 },
-              visible: { opacity: 1, y: 0 },
+              hidden: { opacity: 0, x: -100 },
+              visible: { opacity: 1, x: 0 },
             }}
           >
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              action="https://formsubmit.co/70e24ba9ecf7e9a2b20c875223e6596e"
               method="POST"
             >
               <input
@@ -83,7 +80,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               {errors.name && (
                 <p className="mt-1 text-primary-500">
                   {errors.name.type === "required" && "This field is required."}
-                  {errors.name.type === "maxLength" &&
+                  {errors.name.type === "MaxLength" &&
                     "Max length is 100 char."}
                 </p>
               )}
@@ -101,10 +98,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 <p className="mt-1 text-primary-500">
                   {errors.email.type === "required" &&
                     "This field is required."}
-                  {errors.email.type === "pattern" && "Invalid email address."}
+                  {errors.email.type === "pattern" && "invalid email address."}
                 </p>
               )}
-
               <textarea
                 className={inputStyles}
                 placeholder="MESSAGE"
@@ -119,7 +115,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 <p className="mt-1 text-primary-500">
                   {errors.message.type === "required" &&
                     "This field is required."}
-                  {errors.message.type === "maxLength" &&
+                  {errors.message.type === "MaxLength" &&
                     "Max length is 2000 char."}
                 </p>
               )}
@@ -132,7 +128,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               </button>
             </form>
           </motion.div>
-
           <motion.div
             className="relative mt-16 basis-2/5 md:mt-0"
             initial="hidden"
@@ -140,16 +135,12 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             viewport={{ once: true, amount: 0.5 }}
             transition={{ delay: 0.2, duration: 0.5 }}
             variants={{
-              hidden: { opacity: 0, y: 50 },
-              visible: { opacity: 1, y: 0 },
+              hidden: { opacity: 0, x: 100 },
+              visible: { opacity: 1, x: 0 },
             }}
           >
-            <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
-              <img
-                className="w-full"
-                alt="contact-us-page-graphic"
-                src={ContactUsPageGraphic}
-              />
+            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+              <img src={ContactUsPageGraphic} alt="contact-us-page-graphic" />
             </div>
           </motion.div>
         </div>
