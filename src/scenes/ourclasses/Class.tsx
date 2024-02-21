@@ -1,7 +1,10 @@
+import { SelectedPage } from "../../shared/types";
+
 type Props = {
   name: string;
   description?: string;
   image: string;
+  setSelectedPage: (value: SelectedPage) => void;
 };
 
 const Class = ({ name, description, image }: Props) => {
