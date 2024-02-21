@@ -35,10 +35,9 @@ const Footer = () => {
           <p>Ullamcorper vivamus</p>
         </div>
         <div>
-          <h4 className="font-bold">Links</h4>
+          <h4 className="font-bold">Contact Us</h4>
           <p className="my-5">Massa orci senectus</p>
           <p className="my-5">Et gravida id et etiam</p>
-          <p>Ullamcorper vivamus</p>
         </div>
       </div>
     </footer>
