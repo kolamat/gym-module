@@ -32,7 +32,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               width="50"
               height="50"
               viewBox="0 0 94 108"
-              fill="white"
+              fill="#E1986F"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
