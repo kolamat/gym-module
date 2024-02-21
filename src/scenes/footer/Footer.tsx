@@ -37,7 +37,7 @@ const Footer = () => {
         <div>
           <h4 className="font-bold">Contact Us</h4>
           <p className="my-5">Tempus metus mattis risus volupat egestas</p>
-          <p className="my-5">Et gravida id et etiam</p>
+          <p>(+234) 8150672809</p>
         </div>
       </div>
     </footer>
