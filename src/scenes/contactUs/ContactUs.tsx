@@ -128,6 +128,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               </button>
             </form>
           </motion.div>
+          <motion.div className="relative mt-16 basis-2/5 md:mt-0"></motion.div>
         </div>
       </motion.div>
     </section>
