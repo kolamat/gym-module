@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 // import HomeIcon from "./homeicon.svg";
 
 type Props = {
-  setSelectedPage: (value: SelectedPage) => void;
+  setSelectedPage: (value: string) => void;
 };
 
 const home = ({ setSelectedPage }: Props) => {
