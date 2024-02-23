@@ -1,10 +1,10 @@
 import { SelectedPage, ClassType } from "../../shared/types";
-import image1 from "@/assets/T-assets/gym1.jpeg";
-import image2 from "@/assets/T-assets/gym2.jpeg";
-import image3 from "@/assets/T-assets/gym3.jpeg";
-import image4 from "@/assets/T-assets/gym4.jpeg";
-import image5 from "@/assets/T-assets/gym5.jpeg";
-import image6 from "@/assets/T-assets/gym6.jpeg";
+import image1 from "@/assets/S-assets/S-img1.jpg";
+import image2 from "@/assets/S-assets/S-img2.jpg";
+import image3 from "@/assets/S-assets/S-img3.jpg";
+import image4 from "@/assets/S-assets/S-img4.jpg";
+import image5 from "@/assets/S-assets/S-img5.jpg";
+import image6 from "@/assets/S-assets/S-img6.jpg";
 import { motion } from "framer-motion";
 import HText from "../../shared/Htext";
 import Class from "./Class";
